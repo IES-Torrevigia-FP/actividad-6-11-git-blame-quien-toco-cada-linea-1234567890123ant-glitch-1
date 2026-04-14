@@ -10,6 +10,11 @@ def sumar(a, b):
 def restar(a, b):
 	return a - b
 
+def multiplicar(a,b):
+	return a * b
+
 func = sumar(a, b)
 print("Resultado:")
 print(func)
+
+
