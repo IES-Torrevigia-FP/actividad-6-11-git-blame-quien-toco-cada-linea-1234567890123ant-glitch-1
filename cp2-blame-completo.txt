@@ -1,0 +1,23 @@
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  1) ##calculadora.py
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  2) ##Versión inicial
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  3) 
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  4) a = int(input("Enter a number: "))
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  5) b = int(input("Enter the second number: "))
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  6) 
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  7) def sumar(a, b):
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  8) 	return a + b
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  9) 
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200 10) def restar(a, b):
+b183e154 (Anthony Quintero 2026-04-14 13:56:16 +0200 11) 	return a - b - 1 ## bug intencionado
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200 12) 
+2e8c7f95 (Anthony Quintero 2026-04-14 13:51:51 +0200 13) def multiplicar(a,b):
+2e8c7f95 (Anthony Quintero 2026-04-14 13:51:51 +0200 14) 	return a * b
+2e8c7f95 (Anthony Quintero 2026-04-14 13:51:51 +0200 15) 
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200 16) func = sumar(a, b)
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200 17) print("Resultado:")
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200 18) print(func)
+2e8c7f95 (Anthony Quintero 2026-04-14 13:51:51 +0200 19) 
+b3c2591a (Anthony Quintero 2026-04-14 13:58:46 +0200 20) ##  TODO: añadir función dividir
+
+git blame muestra qué commit modificó cada linea, quien lo hizo y cuando.
+Sirve para entender cambios en el codigo.

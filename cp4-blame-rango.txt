@@ -1,0 +1,7 @@
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  7) def sumar(a, b):
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  8) 	return a + b
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200  9) 
+85f0e7e7 (Anthony Quintero 2026-04-14 13:47:49 +0200 10) def restar(a, b):
+b183e154 (Anthony Quintero 2026-04-14 13:56:16 +0200 11) 	return a - b - 1 ## bug intencionado
+
+Limitar el rango permite centrarse solo en una parte del codigo como una funcion concreta

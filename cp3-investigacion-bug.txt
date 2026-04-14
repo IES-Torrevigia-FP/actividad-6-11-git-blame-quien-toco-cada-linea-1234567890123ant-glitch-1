@@ -1,0 +1,22 @@
+commit b183e1543bebb10688640d7737d10075142c1c60
+Author: Anthony Quintero <Anthony2006@github.com>
+Date:   Tue Apr 14 13:56:16 2026 +0200
+
+    Modifica restar (BUG intencionado)
+
+diff --git a/calculadora.py b/calculadora.py
+index d0f7bcf..4163806 100644
+--- a/calculadora.py
++++ b/calculadora.py
+@@ -8,7 +8,7 @@ def sumar(a, b):
+ 	return a + b
+ 
+ def restar(a, b):
+-	return a - b
++	return a - b - 1 ## bug intencionado
+ 
+ def multiplicar(a,b):
+ 	return a * b
+
+El bug se introdujo en este commit al modificar la funcion restar
+Se añadio "-1", lo que provoca un resultado incorrecto.
